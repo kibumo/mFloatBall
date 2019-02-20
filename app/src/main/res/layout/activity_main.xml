@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fitsSystemWindows="true"
+        android:background="#4C90D6">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FloatingWindow"
+            android:layout_gravity="center"/>
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/start_float_ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startFW"
+        android:layout_below="@+id/toolBar"
+        android:layout_centerHorizontal="true"
+        android:background="#4C90D6"
+        android:layout_marginTop="30dp">
+    </Button>
+
+</RelativeLayout>

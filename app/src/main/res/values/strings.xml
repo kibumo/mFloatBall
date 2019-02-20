@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">悬浮小球</string>
+    <string name="action_settings">Settings</string>
+    <string name="startFW">开启悬浮球</string>
+    <string name="floating">悬浮窗口</string>
+    <string name="stop">移除悬浮窗口</string>
+</resources>
